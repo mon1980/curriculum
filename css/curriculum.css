@@ -7,192 +7,128 @@ body {
     background-image: url(../img/fondo3.jpg);
     width: 90%;
     margin: 0 auto;
-   
 }
 
 
-header {
-    
-    width: 100%;
-    height: 146px; 
-    background-color: rgba(249, 203, 161, 0.8); 
-    margin-bottom: 22px;
-
-
-}
-
-#menunavegacion {
-
-    background-color: rgba(99, 97, 97, 0.9); 
-    
-}
-
-nav>ul>li:hover{
-
-    background-color: #734222;
-    border-radius: 5px;
-    opacity: 90%;
-
-}
-
-header p {
-    color: black;
-}
-
-#encabezado {
-float: right;
-}
-
-#nombre {
-    margin-top: 48px;
-    margin-right: 448px;
-    font-size: 36px;
-    font-family: 'Roboto Condensed', ;
+#fotocurriculum{
+    display: flex;
+    justify-content: flex-start;
+    height: 148px;
+    border: 1px solid blue;
+    margin-bottom: 2px;
 }
 
 
-#fotocurriculum {
-
-    height: 136px;
-    margin: 5px;
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
-
-a{
+ a{
     font-size: 23px;
     text-decoration: none;
-    color: white;
+    transition: 0.4s;
     text-decoration: none;
     font-size: 24px;
     padding: 25px;
-    font-family: 'Roboto Condensed', ;
- 
-    
-}
-
-#descripcionpersonal {
-
-color: bold;
-font-size: 20px;
-margin-top: 56px;
-padding: 10px 10px;
-}
-
-nav {
-width: 100%;
-height: 55px;
-background-color: gray;
-}
-
-li{
-    display: inline-block;
-    list-style: none;
-    padding: 14px;
+    font-family: 'Roboto Condensed',;
+    cursor: pointer;
+    padding: 10px 63px !important;
 
 }
 
-ul{
+.nav-item:hover{
 
-    text-align: center;
+    background-color:#b17c54;;
+    border-radius: 60px;
+    opacity: 90%;
+    height: 56px;
+    color: black;
 }
-
 
 #formacion {
-    display: flex;
-    text-align: center;
-    margin-top: 18px;
-    font-size: 28px;
+    font-size: 23px;
     font-family: 'Heebo';
-    color: white;
-    justify-content: center;
-    margin-left: 596px;
     background-color: #734222;
-    width: 350px;
+    color: white;
+    border-radius: 38px;
+    margin-bottom: 30px;
+    padding: 2px 11px;
 }
 
 .cursos {
-    display: block;
-    margin-top: 15px;
+    margin-top: 52px;
     font-size: 20px;
-    background-color: rgb(255,255,255, 0.7);
-    font-family: 'Roboto Condensed',;
-    padding: 22px;
-    float: right;
-    text-align: left;
-    margin-left: 315px;
-    margin-bottom: 62px;
+    background-color: rgba(249, 203, 161, 0.8);
+    padding: 35px;
     border: 1px;
     border-radius: 15px;
 }
 
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
 #experiencia{
-    text-align: center;
-    margin-top: 35px;
-    font-size: 32px;
+    font-size: 23px;
     font-family: 'Heebo';
-    color: white;
-    margin-left: 682px;
     background-color: #734222;
-    width: 350px;
-    }
+    color: white;
+    border-radius: 38px;
+    margin-bottom: 30px;
+    padding: 2px 11px;
+}
 
 
-.trabajos {
-    text-align: left;
-    margin-top: 19px;
+ .trabajos{
+    margin-top: 52px;
     font-size: 20px;
-    background-color: rgb(255,255,255, 0.7);
-    font-family: 'Heebo';
-    padding: 22px;
-    width: 579px;
-    margin-left: 556px;
+    background-color: rgba(249, 203, 161, 0.8);
+    padding: 35px;
     border: 1px;
     border-radius: 15px;
+    
     }
 
 
 form {
-    margin-top: 30px;
-    margin-left: 506px;
+    margin-top: 52px;
+    width: 70%;
+    
+    }
+
+::placeholder{
+color: black;
+
     }
     
-#telefono{
-    height: 40px;
-    width: 500px;
-    border: 1px;
-    border-radius: 10px;
-    }
-    
-#name{
-        height: 40px;
-        width: 500px;
-        border: 2px;
-        border-radius: 10px;
-        }
-    
-#apellidos{
-        height: 40px;
-        width: 500px;
-        border: 2px;
-        border-radius: 10px;
-            }
-    
+
+#telefono,
+#name,
+#apellidos,
 #email{
-    
-        height: 40px;
-        width: 500px;
-        border: 2px;
-        border-radius: 10px;
-    }
-           
-.enviar{
-display: flex;
-justify-content: center;
+    height: 40px;
+    width: 80%;
+    border: 2px;
+    border-radius: 10px;
 }
+           
+
 
 .enviar a{
 color: black;
+text-decoration: none;
 
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
 }
 
 .enviar button{
@@ -200,115 +136,93 @@ background-color: #F2D2AD;
 border: 1px;
 border-radius: 10px;
 padding: 4px;
-margin-left: 494px;
 margin-top: 18px;
 }
 
 
-#formulario{
-display: flex;
-justify-content: center;
-    }
-
 label {
 color: white;
-font-size: 22px;
+font-size: 23px;
+background-color:#b17c54;
+font-family: 'Heebo';
+
 }
 
 footer{
 display: flex;
-margin-top: 160px;
+margin-top: 40px;
 justify-content: center;
 }
 
 footer img{
 padding: 3px;
 height: 70px;
-
-}
-
-#inicio{
-
-display: flex;
-justify-content: flex-end;
-margin-top: 490px;
-margin-bottom: 20px;
-
-}
-
-#iniciosobremi{
-
-display: flex;
-justify-content: flex-end;
-margin-top: 138px;
-margin-bottom: 20px;
-}
-
-#iniciosobremi a{
-
-background-color: black;
-color: white;
-padding: 7px 15px;
-}
-
-#inicioformulario{
-
-display: flex;
-justify-content: flex-end;
-margin-top: 48px;
-margin-bottom: 20px;
-}
-    
-#inicioformulario a{
-    
-background-color: black;
-color: white;
-padding: 7px 15px;
-}
-
-#inicioexperiencia{
-
-display: flex;
-justify-content: flex-end;
-margin-top: 48px;
-margin-bottom: 20px;
-}
-        
-#inicioexperiencia a{    
-background-color: black;
-color: white;
-padding: 7px 15px;
-    }
-
-#inicio a{
-background-color: black;
-color: white;
-padding: 7px 15px;
 }
 
 
 #sobremi {
-text-align: center;
-margin-top: 35px;
-font-size: 28px;
+font-size: 23px;
 font-family: 'Heebo';
 color: white;
-margin-left: 748px;
-background-color:#734222;
-width: 188px;
+border-radius: 10px;
+background-color: #734222;
+text-align: center;
+padding-right: 18px;
+border-radius: 15px;
 }
 
 #textosobremi {
-text-align: justify;
-margin-top: 10px;
+text-align: center;
+margin-top: 32px;
 font-size: 20px;
-background-color: rgb(255,255,255, 0.6);
+background-color: rgba(249, 203, 161, 0.8);
 padding: 22px;
 font-family: 'Heebo';
 text-indent: 18px;
-width: 466px;
-margin-left: 577px;
-margin-left: 596px;
+width: 60%;
 border: 1px;
 border-radius: 15px;
 }
+
+#nombrefoto  {
+
+    text-align: center;
+}
+
+
+.bg-light {
+    
+    background-color: #734222 !important; 
+    border-radius: 30px;
+}
+
+main span{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+   
+      }
+
+#home{
+    display: flex;
+    justify-content: center; align-items: flex-end;
+}
+
+@media (max-width: 700px) {
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+.img {
+    width: 100%;
+    margin: auto;
+}
+        
+    
+}
+
